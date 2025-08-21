@@ -22,7 +22,6 @@ services:
 
   flaskapp:
     image: hamxa0383/two-tier-flask-app:latest
-      context: .
     container_name: flaskapp
     environment:
       MYSQL_HOST: mysql
