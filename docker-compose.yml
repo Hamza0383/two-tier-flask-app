@@ -21,7 +21,7 @@ services:
       start_period: 60s
 
   flaskapp:
-    build:
+    image: hamxa0383/two-tier-flask-app:latest
       context: .
     container_name: flaskapp
     environment:
